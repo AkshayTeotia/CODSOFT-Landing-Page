@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+<body>
+    <div id="main" data-scroll-container>
+        <div id="page1" data-scroll>
+            
+            <div id="nav1">
+                <div id="logo">
+                    <h1>Space-fy</h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <div id="underline"></div>
+                    </li>
+                    <li>
+                        <a href="#">Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="p1-body">
+                <h1>Discover <br>Deep Space</h1>
+                <h3>A human mission to Moon has been the subject<br>of science since 1940s </h3>
+                
+            </div>
+                <button id="Started"><a href="#form">Join Now</a></button>
+                
+        </div>
+        <div id="page2">
+            <div id="Visit">
+                <h2>Visit our Solar System</h2>
+            </div>
+            <div id="card">    
+                <div class="cards" id="mercury"><h1>Mercury</h1><button class="know">Know More</button></div>
+                <div class="cards" id="venus"><h1>Venus</h1><button class="know">Know More</button></div>
+                <div class="cards" id="mars"><h1>Mars</h1><button class="know">Know More</button></div>
+                <div class="cards" id="earth"><h1>Earth</h1><button class="know">Know More</button></div>
+                <div class="cards" id="saturn"><h1>Saturn</h1><button class="know">Know More</button></div>
+                <div class="cards" id="moon"><h1>Moon</h1><button class="know">Know More</button></div>
+            </div>
+        </div>
+        <hr>
+        <div id="page3" data-scroll>
+            <form id="form">
+                    <fieldset>
+                        <legend>Fill The Form</legend>
+                        <label for="">FirstName</label><br>
+                        <input type="text" required>
+                        <br>
+                        <label for="">LastName</label>
+                        <br>
+                        <input type="text" required>
+                        <br>
+                        <label for="">Date of Birth</label>
+                        <br>
+                        <input type="date" required>
+                        <br>
+                        <label for="">Email address</label>
+                        <br>
+                        <input type="email" required>
+                        <br>
+                        <button id="submit" value=submit id="submit" >submit</button>
+                        
+                </fieldset>
+            </form>  
+        </div>
+    </div>
+
+    <div id="footer">
+        Copyright © AkshayTeotia | All Rights Reserved
+     </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="script.js"></script>
+</html>
